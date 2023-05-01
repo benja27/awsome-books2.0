@@ -17,6 +17,7 @@ form.addEventListener('submit', (e) => {
     author: author.value,
   };
   addBook(book);
+  form.reset();
 });
 
 window.document.addEventListener('DOMContentLoaded', () => {
