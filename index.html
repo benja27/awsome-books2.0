@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body class="min-vh-100" >
+  <header>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="nav navbar-nav">            
+            <a class="nav-item nav-link" href="#">Add new Book</a>
+            <a class="nav-item nav-link" href="#">List of books</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+        <div class="card-header d-flex justify-content-end">
+            <span id="date-container" > date</span>
+        </div>
+        <div class="card-body app">
+
+            <form action="" class="spa" id="form" >
+                <div class="mb-3">
+                  <label for="" class="form-label">Awsome Books </label>
+                  <input type="text"
+                    class="form-control" name="" id="title" aria-describedby="helpId" placeholder="Enter a new book">                  
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Author</label>
+                  <input type="text"
+                    class="form-control" name="" id="author" aria-describedby="helpId" placeholder="Enter the author">                  
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+
+            <div id="table" class="table-responsive spa d-none">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">Book</th>
+                            <th scope="col">Actions</th>                            
+                        </tr>
+                    </thead>
+                    <tbody id="container" >
+                        <tr class="">                            
+                            <td>
+                                Libro : "libro" by "autor"
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-primary">Delete</button>
+                            </td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="contact" class="contact spa d-none">
+                <div class="p-5 mb-4 bg-light rounded-3">
+                    <div class="container-fluid py-5">
+                      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                    </div>
+                  </div>
+            </div>
+            
+
+        </div>
+        <!-- <div class="card-footer text-muted position-absolute bottom-0 end-0">
+            asdfdadf
+        </div> -->
+    </div>
+  </main>
+  <footer  class="card-footer text-muted w-100 position-fixed bottom-0 py-3 px-3 bg-light" >
+    Copyrigth 2023          
+    </footer>
+  
+    <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="index.js" type="module" ></script>
+</body>
+
+</html>
