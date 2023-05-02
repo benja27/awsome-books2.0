@@ -1,32 +1,7 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+<div align="center">  
   
   <br/>
   
@@ -54,14 +29,14 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My first porfolio] <a name="about-project"></a>
+# 📖 [Mariano's Porfolio] <a name="about-project"></a>
 
-**[My first portfolio]** is a practice of responsive Design
+**[Awsome Books]** is a practice about manipulating DOM and using objects to store data, also preserve data in local storage
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,7 +48,7 @@ After you're finished please remove all the comments and instructions!
     <li><a href="https://reactjs.org/">Html</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">JS</a></li>
   </ul>
   <ul>
     <li><a href="https://reactjs.org/">Flex-box</a></li>
@@ -87,8 +62,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsive Design]**
-- **[Template from Figma]**
+- **[Local Storage to preserve data]**
+- **[DOM manipularion using JS]**
+- **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +72,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://benja27.github.io/Portfolio-setup2/)
+
+- [Live Demo Link](https://benja27.github.io/awsomebooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,12 +83,13 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
 ### Prerequisites
 
 In order to run this project you need:
 
-Internet and a computer
-
+Clone the repo and open the index.html file located in the root directory
 <!--
 Example command:
 
@@ -124,42 +102,25 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
 Install this project with:
 
-N/A
+it does not requiere instalattion.
 
-<!--
-Example command:
 
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-N/A
-<!--
-Example command:
+Download or clone the repo and double click on the index.html file 
+If you want to modify something you can open the folder with your favorite text editor
+I recomend Visual studio code
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -167,26 +128,14 @@ To run tests, run the following command:
 
 N/A
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-Double click on the html file
-<!--
-Example:
+Double click on the html file or you can go to the live demo
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,13 +143,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Mariano Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/benja27)
 - Twitter: [@twitterhandle](https://twitter.com/@rksne123)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,7 +156,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[None]**
+- [ ] **[It will accept Bitcoin]**
+- [ ] **[It will be conected to internet]**
+- [ ] **[It will do something amazing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,8 +176,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project like and subscribe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,9 +184,7 @@ If you like this project like and subscribe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank myself
+I would like to thank to Microverse 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,10 +193,8 @@ I would like to thank myself
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="license" href="https://choosealicense.com/licenses/mit/">MIT</a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
