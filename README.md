@@ -96,7 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://benja27.github.io/Portfolio-setup2/)
+- [Live Demo Link](https://benja27.github.io/awsome-books2.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
