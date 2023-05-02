@@ -73,7 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://benja27.github.io/awsomebooks/)
+- [Live Demo Link](https://benja27.github.io/awsome-books2.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
