@@ -2,8 +2,8 @@
 import { addBook } from './modules/addBook.js';
 import { showBooks } from './modules/showBooks.js';
 import { deleteBook } from './modules/deleteBook.js';
-import {dateTime} from './modules/setDateTime.js';
-import {spa} from './modules/spa.js';
+import { dateTime } from './modules/setDateTime.js';
+import { spa } from './modules/spa.js';
 
 // general variables
 const form = document.getElementById('form');
@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
 });
 
 window.document.addEventListener('DOMContentLoaded', () => {
-    spa();
+  spa();
   dateTime();
 
   setInterval(() => {
