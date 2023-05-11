@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mariano's Porfolio] <a name="about-project"></a>
+# 📖 [Awsome Bookss] <a name="about-project"></a>
 
 **[Awsome Books]** is a practice about manipulating DOM and using objects to store data, also preserve data in local storage
 
